@@ -1,0 +1,158 @@
+/* Existing styles */
+.settings-panel {
+  /* inherits container style */
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #444;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.header-title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.header-title h3 {
+  margin: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.location-selector-section {
+  margin-bottom: 15px;
+  background: #f8fafc;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+.location-selector-section label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.location-row {
+  display: flex;
+  gap: 8px;
+}
+
+.location-select {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  font-size: 13px;
+  background: white;
+}
+
+.manage-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  background: #e2e8f0;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #475569;
+  transition: all 0.2s;
+}
+
+.manage-btn:hover {
+  background: #cbd5e1;
+  color: #1e293b;
+}
+
+.divider {
+  height: 1px;
+  background: #eee;
+  margin: 15px 0;
+}
+
+.panel-header-small {
+  margin-bottom: 10px;
+}
+
+.panel-header-small h3 {
+  margin: 0;
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.settings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 12px;
+}
+
+.setting-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.setting-group label {
+  font-size: 11px;
+  color: #666;
+  font-weight: 500;
+}
+
+.setting-group input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.pdf-btn,
+.print-btn {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.pdf-btn {
+  background: #ef4444;
+}
+
+.pdf-btn:hover {
+  background: #dc2626;
+}
+
+.print-btn {
+  background: #2563eb;
+}
+
+.print-btn:hover {
+  background: #1d4ed8;
+}
