@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Security
+src/assets/*.pem
+src/assets/digital-certificate*.txt
+scripts/private-key*.pem
+scripts/digital-certificate*.txt
